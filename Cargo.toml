@@ -12,7 +12,7 @@ An implementation of SSL streams for Tokio backed by OpenSSL
 """
 
 [dependencies]
-openssl = "0.10.1"
+openssl = { git = "https://github.com/inikulin/rust-openssl", rev = "2eef8250c90c5d2f8e48cbac3197fd6c2ca97400" }
 tokio = "0.2"
 
 [dev-dependencies]
