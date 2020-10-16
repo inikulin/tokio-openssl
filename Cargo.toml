@@ -1,6 +1,6 @@
 [package]
 name = "tokio-openssl"
-version = "0.4.0"
+version = "0.4.0-cf"
 authors = ["Alex Crichton <alex@alexcrichton.com>"]
 license = "MIT/Apache-2.0"
 edition = "2018"
@@ -12,7 +12,7 @@ An implementation of SSL streams for Tokio backed by OpenSSL
 """
 
 [dependencies]
-openssl = { git = "https://github.com/inikulin/rust-openssl", rev = "2eef8250c90c5d2f8e48cbac3197fd6c2ca97400" }
+openssl = { git = "https://github.com/inikulin/rust-openssl", rev = "94d13219570e543a2947d3bb77c1c9cd98015675" }
 tokio = "0.2"
 
 [dev-dependencies]
